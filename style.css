@@ -22,6 +22,11 @@ img{
     margin-bottom: 24px;
     
 }
+.navbar{
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+}
 
 .section_title{
     margin-bottom: 30px;
@@ -125,6 +130,9 @@ img{
 .section_title .section_title_alt_iletisim a i{
     font-size: 35px;
     color: white;
+}
+.section_title .section_title_alt_iletisim a i:hover{
+    color: gray;
 }
 
 

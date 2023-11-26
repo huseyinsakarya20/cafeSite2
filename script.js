@@ -1,7 +1,14 @@
 const bar = document.querySelector(".bar");
-const dropdownmenu = document.querySelector(".dropdown_menu");
+const dropdownMenu = document.querySelector(".dropdown_menu");
+let timeoutId;
 
 
 bar.onclick = function (){
-    dropdownmenu.classList.toggle('open')
-}
+    dropdownMenu.classList.toggle('open')
+
+    timeoutId = setTimeout(function () {
+        dropdownMenu.classList.remove('open');
+    }, 30000);
+};
+
+
