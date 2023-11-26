@@ -2,6 +2,7 @@ section{
     background-color: black;
     padding: 100px 0;
 }
+
 header img {
     width: 50%;
     display: flex;
@@ -21,6 +22,9 @@ img{
     overflow: hidden;
     margin-bottom: 24px;
     
+}
+h1,h3,a,li{
+    font-family: 'Courier New', Courier, monospace;
 }
 .navbar{
     position: sticky !important;
@@ -120,6 +124,12 @@ img{
     color: black;
     font-size: 15px;
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+
 }
 /*iletşim */
 .section_title .section_title_alt_iletisim{
