@@ -32,8 +32,7 @@ h1,h3,a,li{
     z-index: 1000;
 }
 .navbar .container-fluid .navbar-brand{
-    font-size: 15px;
-    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 .section_title{
     margin-bottom: 30px;
