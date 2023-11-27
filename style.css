@@ -151,11 +151,11 @@ h1,h3,a,li{
 }
 .dropdown_menu li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
-    background-color: aqua;
+    background-color:rgb(98, 90, 110);
     width: 100%;
     border-radius: 10px;
     text-align: center;
