@@ -8,7 +8,7 @@ bar.onclick = function (){
 
     timeoutId = setTimeout(function () {
         dropdownMenu.classList.remove('open');
-    }, 10000);
+    }, 50000);
 };
 dropdownMenu.addEventListener('click', function (event) {
     if (event.target.tagName === 'A') {
