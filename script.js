@@ -1,5 +1,6 @@
 const bar = document.querySelector(".bar");
 const dropdownMenu = document.querySelector(".dropdown_menu");
+
 let timeoutId;
 
 bar.onclick = function (){
