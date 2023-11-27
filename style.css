@@ -31,6 +31,10 @@ h1,h3,a,li{
     top: 0;
     z-index: 1000;
 }
+.navbar .container-fluid{
+    background-color: rgb(98, 90, 110) !important;
+    height: 45px;
+}
 .navbar .container-fluid .menu{
     display: flex;
     justify-content: center;
@@ -38,7 +42,6 @@ h1,h3,a,li{
 }
 .navbar .container-fluid .menu li{
     list-style-type: none;
-    
 }
 .navbar .container-fluid .menu li a{
     padding: 8px;
@@ -47,16 +50,17 @@ h1,h3,a,li{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: black;
+    color: white;
     border-radius: 15px;
     transition: background-color 0.4s ease-in-out;
 }
 .navbar .container-fluid .menu li a:hover{
     background-color: rgb(188, 184, 184);
-    
+    color: black;
 }
 .navbar .container-fluid .navbar-brand{
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 .section_title{
     margin-bottom: 30px;
@@ -117,7 +121,7 @@ h1,h3,a,li{
 
 /* dropdown Menu */
 .navbar .bar{
-    color: black;
+    color: white;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
